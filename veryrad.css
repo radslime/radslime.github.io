@@ -1,4 +1,8 @@
-hrad {
+body {
+  background-color: #95E99E;
+}
+
+h1 {
 color: black;
 text-align: center;
 font-size: 30pt;
@@ -9,5 +13,12 @@ t {
 color: black;
 text-align: center;
 font-size: 15pt;
-font-family: "Lucids Sans Unicode", "Lucida Grande", sans-serif;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+foot {
+  color: black;
+  text-align: center;
+  font-size: 1pt;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
