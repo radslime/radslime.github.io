@@ -9,11 +9,19 @@
 <h1><img width="20" src="http://i58.tinypic.com/i6d07k.jpg"> RAD SLIME <img width="20" src="http://i58.tinypic.com/i6d07k.jpg"></h1>
 <t>
   <p>
-  <select>
-    <option>WEBSITES</option>
-    <option onclick="http://ravioli.cc">Ravioli Hell ☭</option>
-    <option onclick="http://radsli.me">RAD SLIME</option>
-  </select>
+  <select id="foo">
+    <option value="">WEBSITES</option>
+    <option value="http://ravioli.cc">Ravioli Hell</option>
+    <option value="http://radsli.me">RAD SLIME</option>
+    </select>
+
+<script>
+    document.getElementById("foo").onchange = function() {
+        if (this.selectedIndex!==0) {
+            window.location.href = this.value;
+        }        
+    };
+</script>
 
 <p>my name is slime and i make trash websites.
 <p>thanks B)
