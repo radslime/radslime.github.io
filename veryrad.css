@@ -1,24 +1,24 @@
 body {
-  background-color: #95E99E;
+  background-color: #000000;
 }
 
 h1 {
-color: black;
+color: #ffffff;
 text-align: center;
 font-size: 30pt;
-font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-family: "Courier New", "Courier", monospace;
 }
 
 t {
-color: black;
+color: #ffffff;
 text-align: center;
 font-size: 15pt;
-font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-family: "Courier New", "Courier", monospace;
 }
 
 foot {
-  color: black;
+  color: #ffffff;
   text-align: center;
   font-size: 10pt;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: "Courier New", "Courier", monospace;
 }
