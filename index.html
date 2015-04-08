@@ -15,14 +15,14 @@
   <select id="foo">
     <option value="">WEBSITES</option>
     <option value="">hidden</option>
-    <option value="http://radslime.tumblr.com/">tumblr</option>
-    <option value="/spider.html">the spider</option>
-    <option value="http://radsli.me/CHAMP.html">JOHN CENA</option>
+    <option value="http://radslime.tumblr.com/" target="tumblerr">tumblr</option>
+    <option value="/spider.html" target="spiderweb">the spider</option>
+    <option value="http://radsli.me/CHAMP.html" target="whoischamp">JOHN CENA</option>
     </select> 
 <script>
     document.getElementById("foo").onchange = function() {
         if (this.selectedIndex!==0) {
-            window.open = this.value;
+            window.location.href = this.value;
         }        
     };
 </script>
