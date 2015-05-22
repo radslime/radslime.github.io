@@ -13,12 +13,13 @@
 <p>STILL A WORK IN PROGRESS, ASSBAG!!!
 <p>
 <script type = "text/javascript">
-  function sayHi(){
-  var txtName = document.getElementById("txtName");
+  function grawLix(){
+  var str = document.getElementById("txtName").innerHTML; 
+    var res = str.replace("fuck", "f#$%");
+    document.getElementById("txtName").innerHTML = res;
   var txtOutput = document.getElementById("txtOutput");
   var name = txtName.value;
-  txtOutput.value = "still not sure how to grawlix-ify " + name
-  } // end sayHi
+  }
  </script>
 
 <form action = "">
@@ -29,7 +30,7 @@
     id = "txtName" />
   <input type = "button"
     value = "OH S@#%!"
-    onclick = "sayHi()"/>
+    onclick = "grawLix()"/>
   <input type = "text"
     id = "txtOutput" />
   </fieldset>
