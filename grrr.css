@@ -1,0 +1,24 @@
+body {
+  background-color: #FCECD9;
+}
+
+h1 {
+color: #420420;
+text-align: center;
+font-size: 30pt;
+font-family: "Courier New", "Courier", monospace;
+}
+
+t {
+color: #420420;
+text-align: center;
+font-size: 15pt;
+font-family: "Courier New", "Courier", monospace;
+}
+
+foot {
+  color: #420420;
+  text-align: center;
+  font-size: 10pt;
+  font-family: "Courier New", "Courier", monospace;
+}
