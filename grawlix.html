@@ -1,29 +1,40 @@
 <!DOCTYPE HTML>
+
 <head>
 <title>Grawlix Translator</title>
 <link rel="stylesheet" type="text/css" href="http://radsli.me/veryrad.css">
 </head>
+
 <body>
 <h1>what the f#$% is this?</h1>
 <div align="center">
 <t>
-  welcome to slime's English to grawlix generator.
+  welcome to slime's English to grawlix translator.
   <br>click <a href="http://radsli.me/">here</a> to go home.
-<table>
-  <tr><td>
-  <p>
-    INPUT BOX!!!!!!
-  </p>
-  <p>
-    OUTPUT BOX!!!!!
-  </p>
-  </td>
-  <td>
-    <p>OTHER INPUT BOX!!!</p>
-    <p>OTHER OUTPUT BOX!!! WOW</p>
-  </td>
-  </tr>
-</table>
+
+<script type = "text/javascript">
+  // from textBoxes.html
+  function sayHi(){
+  var txtName = document.getElementById("txtName");
+  var txtOutput = document.getElementById("txtOutput");
+  var name = txtName.value;
+  txtOutput.value = "Hi there, " + name + "!"
+  } // end sayHi
+ </script>
+
+<form action = "">
+  <fieldset>
+  <label>Type your name: </label>
+  <input type = "text"
+    id = "txtName" />
+  <input type = "button"
+    value = "click me"
+    onclick = "sayHi()"/>
+  <input type = "text"
+    id = "txtOutput" />
+  </fieldset>
+ </form>
+
 </t>
 </div>
 </body>
