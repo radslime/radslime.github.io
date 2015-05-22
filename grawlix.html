@@ -17,6 +17,9 @@
   var txtName = document.getElementById("txtName");
   var txtOutput = document.getElementById("txtOutput");
   var name = txtName.value;
+  var str = document.getElementById("txtName").innerHTML; 
+    var res = str.replace("fuck", "faaack");
+    document.getElementById("txtName").innerHTML = res;
   txtOutput.value = "oh snap"
   }
  </script>
